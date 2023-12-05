@@ -9,7 +9,6 @@ builder.Services.AddSingleton<SqlConnectionFactory>(provider => new SqlConnectio
 
 builder.Services.AddTransient<IProcedimientoAlmacenadoService, ProcedimientoAlmacenadoService>();
 
-// Aprender más sobre la configuración de Swagger/OpenAPI en https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
